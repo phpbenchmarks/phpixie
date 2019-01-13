@@ -1,0 +1,8 @@
+{
+    "name": "phpbenchmarks/phpixie",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "phpbenchmarks/phpixie-common": "dev-phpixie_3_prepare"
+    }
+}

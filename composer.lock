@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65608595d2297edd0724b061506aa504",
+    "packages": [
+        {
+            "name": "phpbenchmarks/phpixie-common",
+            "version": "dev-phpixie_3_prepare",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpbenchmarks/phpixie-common.git",
+                "reference": "519063f513ade75cbe5df8ba439af197a1f4a81c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpbenchmarks/phpixie-common/zipball/519063f513ade75cbe5df8ba439af197a1f4a81c",
+                "reference": "519063f513ade75cbe5df8ba439af197a1f4a81c",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "time": "2019-01-13T11:51:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpbenchmarks/phpixie-common": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,37 +1,24 @@
 {
-    "name": "phpixie/project",
+    "name": "phpbenchmarks/symfony",
+    "license": "proprietary",
     "type": "project",
-    "description": "PHPixie skeleton project",
-    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
             "": [
-                "src/",
-                "tests/"
-            ],
-            "Project\\App\\": [
-                "bundles/app/src/"
+                "src/"
             ]
         }
     },
     "require": {
+        "php": "^5.6|^7.0",
         "phpixie/default-bundle": "~3.2",
         "phpixie/bundle-framework": "~3.6",
         "phpixie/framework-bundle": "~3.3",
-        "phpbenchmarks/phpixie-common": "dev-phpixie_3_prepare"
-    },
-    "require-dev": {
-        "phpixie/test": "~3.0"
+        "phpbenchmarks/phpixie-common": "dev-phpixie_3_hello-world"
     },
     "extra": {
         "branch-alias": {
             "dev-master": "3.*-dev"
         }
-    },
-    "scripts": {
-        "post-create-project-cmd": [
-            "php ./console framework:generateBundle app",
-            "php ./console framework:installWebAssets"
-        ]
     }
 }

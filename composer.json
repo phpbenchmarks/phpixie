@@ -14,7 +14,7 @@
         "phpixie/default-bundle": "~3.2",
         "phpixie/bundle-framework": "~3.6",
         "phpixie/framework-bundle": "~3.3",
-        "phpbenchmarks/phpixie-common": "dev-phpixie_3_hello-world"
+        "phpbenchmarks/phpixie-common": "3.1.0"
     },
     "extra": {
         "branch-alias": {

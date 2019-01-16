@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db5e06dc5099fb9fb35d579df2bb101b",
+    "content-hash": "42bac77505cbc2094740d46e7adac1f6",
     "packages": [
         {
             "name": "ircmaxell/password-compat",
@@ -99,16 +99,16 @@
         },
         {
             "name": "phpbenchmarks/phpixie-common",
-            "version": "dev-phpixie_3_hello-world",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbenchmarks/phpixie-common.git",
-                "reference": "a8da6cd870b0634405844bfbad838f6f2b04d73b"
+                "reference": "c0e98c3534ac62a375ce77384936404974a99d67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/phpixie-common/zipball/a8da6cd870b0634405844bfbad838f6f2b04d73b",
-                "reference": "a8da6cd870b0634405844bfbad838f6f2b04d73b",
+                "url": "https://api.github.com/repos/phpbenchmarks/phpixie-common/zipball/c0e98c3534ac62a375ce77384936404974a99d67",
+                "reference": "c0e98c3534ac62a375ce77384936404974a99d67",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                 "BSD-3-Clause"
             ],
             "description": "PHPixie skeleton project",
-            "time": "2019-01-15T00:51:56+00:00"
+            "time": "2019-01-15T12:58:53+00:00"
         },
         {
             "name": "phpixie/auth",
@@ -2091,9 +2091,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpbenchmarks/phpixie-common": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
